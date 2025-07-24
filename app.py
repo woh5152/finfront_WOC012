@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import requests
 import os
 
-
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'  # Replace for production
 
